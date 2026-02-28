@@ -9,6 +9,14 @@
     },
     "charts/ingress-nginx": {
         "package-name": "ingress-nginx"
+    },
+    "charts/nginx-oci": {
+        "release-type": "simple",
+        "package-name": "nginx-oci",
+        "extra-files": [
+          "clusters/*/nginx-oci/**",
+          "oci-base/*/nginx-oci/kustomization.yaml"
+        ]
     }
   }
 }
