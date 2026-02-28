@@ -13,9 +13,9 @@
     "charts/nginx-oci": {
         "release-type": "simple",
         "package-name": "nginx-oci",
-        "extra-files": [
+        "include-paths": [
           "clusters/*/nginx-oci/**",
-          "oci-base/*/nginx-oci/kustomization.yaml"
+          "oci-base/**/nginx-oci/kustomization.yaml"
         ]
     }
   }
