@@ -11,10 +11,10 @@
         "release-type": "helm",
         "package-name": "ingress-nginx"
     },
-    "nginx-oci": {
+    "charts/nginx-oci": {
       "release-type": "simple",
       "package-name": "nginx-oci",
-      "version-file": "charts/nginx-oci/version.txt",
+      "version-file": "version.txt",
       "include-paths": [
         "charts/nginx-oci",
         "charts/nginx-oci/**",
