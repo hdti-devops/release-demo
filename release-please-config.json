@@ -14,7 +14,7 @@
     "nginx-oci": {
       "release-type": "simple",
       "package-name": "nginx-oci",
-      "version-file": "nginx-oci/version.txt",
+      "version-file": "version.txt",
       "include-paths": [
         "oci-base/**/nginx-oci/**",
         "clusters/**/nginx-oci/**",
