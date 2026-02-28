@@ -15,7 +15,7 @@
         "package-name": "nginx-oci",
         "extra-files": [
           "clusters/*/nginx-oci/**",
-          "oci-base/*/nginx-oci/kustomization.yaml"
+          "oci-base/**/nginx-oci/kustomization.yaml"
         ]
     }
   }
