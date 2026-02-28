@@ -14,8 +14,8 @@
         "release-type": "simple",
         "package-name": "nginx-oci",
         "include-paths": [
-          "oci-base/dev/nginx-oci/kustomization.yaml",
-          "oci-base/qa/nginx-oci/kustomization.yaml",
+          "../../oci-base/dev/nginx-oci/kustomization.yaml",
+          "../../../oci-base/qa/nginx-oci/kustomization.yaml",
           "oci-base/prod/nginx-oci/kustomization.yaml",
           "clusters/*/nginx-oci/**"
         ]
