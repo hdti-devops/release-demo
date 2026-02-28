@@ -11,16 +11,14 @@
         "release-type": "helm",
         "package-name": "ingress-nginx"
     },
-    "charts/nginx-oci": {
+    "nginx-oci": {
       "release-type": "simple",
       "package-name": "nginx-oci",
+      "version-file": "nginx-oci/version.txt",
       "include-paths": [
-        "oci-base/dev/nginx-oci",
-        "oci-base/qa/nginx-oci",
-        "oci-base/prod/nginx-oci",
-        "clusters/dev/nginx-oci",
-        "clusters/qa/nginx-oci",
-        "clusters/prod/nginx-oci"
+        "oci-base/**/nginx-oci/**",
+        "clusters/**/nginx-oci/**",
+        "nginx-oci/**"
       ]
     }
   }
