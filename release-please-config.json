@@ -6,6 +6,9 @@
   "packages": {
     "charts/argocd": {
         "package-name": "argocd"
+    },
+    "charts/ingress-nginx": {
+        "package-name": "ingress-nginx"
     }
   }
 }
