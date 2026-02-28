@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/hdti-devops/release-demo/compare/nginx-oci-v1.1.0...nginx-oci-v1.2.0) (2026-02-28)
+
+
+### Features
+
+* **nginx-oci:** deplace in charts ([#22](https://github.com/hdti-devops/release-demo/issues/22)) ([8bce49b](https://github.com/hdti-devops/release-demo/commit/8bce49b0da4db18dab5cfc4e09cfb6ee44e0afa1))
+* **nginx-oci:** new ingress controller ([#4](https://github.com/hdti-devops/release-demo/issues/4)) ([35eac42](https://github.com/hdti-devops/release-demo/commit/35eac42e16c5a7f4a9796208479018095e810d0e))
+
 ## [1.1.0](https://github.com/hdti-devops/release-demo/compare/nginx-oci-v1.0.0...nginx-oci-v1.1.0) (2026-02-28)
 
 
