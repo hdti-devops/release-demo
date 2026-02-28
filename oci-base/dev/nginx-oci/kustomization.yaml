@@ -30,4 +30,4 @@ patches:
     patch: |-
       - op: replace
         path: /spec/template/spec/containers/0/image
-        values: artifacts.myorgdomaindev.com/docker-hub-remote/nginx/nginx-ingress:6.6.6
+        values: artifacts.myorgdomaindev.com/docker-hub-remote/nginx/nginx-ingress:6.6.7
