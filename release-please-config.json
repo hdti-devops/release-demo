@@ -14,7 +14,7 @@
     "charts/nginx-oci": {
       "release-type": "simple",
       "package-name": "nginx-oci",
-      "version-file": "version.txt", 
+      "version-file": "charts/nginx-oci/version.txt", 
       "include-paths": [
         "oci-base/**/nginx-oci/**",
         "clusters/**/nginx-oci/**",
