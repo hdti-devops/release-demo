@@ -17,8 +17,9 @@
       "version-file": "charts/nginx-oci/version.txt",
       "include-paths": [
         "charts/nginx-oci",
-        "oci-base/dev/nginx-oci",
-        "oci-base/dev/nginx-oci/kustomization.yaml",
+        "charts/nginx-oci/**",
+        "oci-base/**/nginx-oci",
+        "oci-base/**/nginx-oci/**",
         "clusters/**/nginx-oci/**"
       ]
     }
