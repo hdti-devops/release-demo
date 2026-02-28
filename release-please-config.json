@@ -1,13 +1,14 @@
 {
   "separate-pull-requests": true,
   "sequential-calls": true,
-  "release-type": "helm",
   "skip-github-release": false,
   "packages": {
     "charts/argocd": {
+        "release-type": "helm",
         "package-name": "argocd"
     },
     "charts/ingress-nginx": {
+        "release-type": "helm",
         "package-name": "ingress-nginx"
     },
     "charts/nginx-oci": {
