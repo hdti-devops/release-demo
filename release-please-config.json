@@ -12,19 +12,16 @@
         "package-name": "ingress-nginx"
     },
     "charts/nginx-oci": {
-        "release-type": "simple",
-        "package-name": "nginx-oci",
-        "extra-files": [
-          "../../oci-base/dev/nginx-oci/kustomization.yaml",
-          "../../../oci-base/qa/nginx-oci/kustomization.yaml",
-          "oci-base/prod/nginx-oci/kustomization.yaml",
-          "clusters/*/nginx-oci/**"
-        ],
-        "include-paths": [
-          "../../oci-base/dev/nginx-oci/kustomization.yaml",
-          "../../../oci-base/qa/nginx-oci/kustomization.yaml",
-          "oci-base/prod/nginx-oci/kustomization.yaml"
-        ]
+      "release-type": "simple",
+      "package-name": "nginx-oci",
+      "include-paths": [
+        "oci-base/dev/nginx-oci",
+        "oci-base/qa/nginx-oci",
+        "oci-base/prod/nginx-oci",
+        "clusters/dev/nginx-oci",
+        "clusters/qa/nginx-oci",
+        "clusters/prod/nginx-oci"
+      ]
     }
   }
 }
