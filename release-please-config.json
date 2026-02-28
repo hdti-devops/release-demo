@@ -1,0 +1,11 @@
+{
+  "separate-pull-requests": true,
+  "sequential-calls": true,
+  "release-type": "helm",
+  "skip-github-release": false,
+  "packages": {
+    "charts/argocd": {
+        "package-name": "argocd"
+    }
+  }
+}
