@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/hdti-devops/release-demo/compare/nginx-oci-v1.0.0...nginx-oci-v1.1.0) (2026-02-28)
+
+
+### Features
+
+* **nginx-oci:** chat base ([#18](https://github.com/hdti-devops/release-demo/issues/18)) ([d0f7617](https://github.com/hdti-devops/release-demo/commit/d0f76170a76e229860b5f6fcbc231826a33549bd))
+
 ## 1.0.0 (2026-02-28)
 
 
